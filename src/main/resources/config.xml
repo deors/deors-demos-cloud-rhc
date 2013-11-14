@@ -19,7 +19,7 @@
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="org.hsqldb.jdbcDriver" />
-        <property name="url" value="jdbc:hsqldb:mem:petclinic" />
+        <property name="url" value="jdbc:hsqldb:mem:rhcfirst" />
         <property name="username" value="sa" />
         <property name="password" value="" />
         <property name="maxWait" value="5000" />
