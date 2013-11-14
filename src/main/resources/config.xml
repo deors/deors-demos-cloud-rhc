@@ -41,7 +41,7 @@
         </property>
         <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
                 <!-- create the tables if they do not exist or update them if anything changes -->
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
             </props>
